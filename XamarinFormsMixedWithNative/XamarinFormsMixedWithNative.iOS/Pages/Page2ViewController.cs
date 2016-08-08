@@ -1,9 +1,8 @@
 
 using System;
-using System.Drawing;
-
-using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using XamarinFormsMixedWithNative.Pages;
 
 namespace XamarinFormsMixedWithNative.iOS.Pages
 {
@@ -19,6 +18,12 @@ namespace XamarinFormsMixedWithNative.iOS.Pages
             base.DidReceiveMemoryWarning();
 
             // Release any cached data, images, etc that aren't in use.
+        }
+
+
+        partial void NavigateToFormsPage3ButtonDown(UIKit.UIButton sender)
+        {
+            NavigationController.PushViewController(new Page3Forms().CreateViewController(), true);
         }
 
         #region View lifecycle

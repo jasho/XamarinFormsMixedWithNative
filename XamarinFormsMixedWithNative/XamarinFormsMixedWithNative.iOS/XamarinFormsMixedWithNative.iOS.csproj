@@ -90,13 +90,17 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <None Include="Entitlements.plist" />
-    <None Include="Info.plist" />
-    <Compile Include="Pages\CustomRenderers\Page2CustomRenderer.cs" />
     <Compile Include="Pages\Page2ViewController.cs" />
     <Compile Include="Pages\Page2ViewController.designer.cs">
       <DependentUpon>Page2ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIButon.cs" />
+    <Compile Include="UIButon.designer.cs">
+      <DependentUpon>UIButon.cs</DependentUpon>
+    </Compile>
+    <None Include="Entitlements.plist" />
+    <None Include="Info.plist" />
+    <Compile Include="Pages\CustomRenderers\Page2CustomRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork" />
     <ITunesArtwork Include="iTunesArtwork@2x" />
