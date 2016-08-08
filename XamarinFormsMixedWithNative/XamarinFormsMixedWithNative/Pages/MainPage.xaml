@@ -3,4 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinFormsMixedWithNative.Pages.MainPage"
              Title="Main Page Forms">
+  <StackLayout Orientation="Vertical">
+    <Button x:Name="NavigateToPage2Button" Clicked="NavigateToPage2Button_OnClicked" Text="Navigate to Page 2"></Button>
+  </StackLayout>
 </ContentPage>

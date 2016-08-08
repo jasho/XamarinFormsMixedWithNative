@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 
@@ -13,6 +9,11 @@ namespace XamarinFormsMixedWithNative.Pages
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void NavigateToPage2Button_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Page2());
         }
     }
 }
